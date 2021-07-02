@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Display_Module.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Keyboard_Module.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Sawtooth_Module.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/VGAscan.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/VGAtxt48x20.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

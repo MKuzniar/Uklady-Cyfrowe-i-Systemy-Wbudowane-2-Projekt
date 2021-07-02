@@ -1,0 +1,29 @@
+Command line:
+   Keyboard_Test_Bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51891
+
+Thu Jun 03 14:52:53 2021
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5150.1 Meg
+
+ Total Signals          : 14
+ Total Nets             : 18
+ Total Signal Drivers   : 7
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 5
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 501
+Total Line Count : 215
+
+ Total Simulation Time: 0.8125 sec
+
+ Current Memory Usage: 4992.82 Meg
+
+Thu Jun 03 14:54:07 2021
+

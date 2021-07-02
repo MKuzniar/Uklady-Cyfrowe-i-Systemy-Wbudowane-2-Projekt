@@ -1,0 +1,2 @@
+vhdl isim_temp "Sawtooth_Module.vhd"
+vhdl isim_temp "Sawtooth_Test_Bench.vhd"

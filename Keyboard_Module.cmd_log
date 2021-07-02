@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Keyboard_Module.vhd -prj Organki_Gr_4 -o Keyboard_Module.spl -module Keyboard_Module -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Keyboard_Module.spl D:/Stuff/Studia/UCiSW2/Organki_Gr_4/Keyboard_Module.sym 

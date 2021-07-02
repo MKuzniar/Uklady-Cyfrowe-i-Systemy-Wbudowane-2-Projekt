@@ -1,0 +1,6 @@
+vhdl isim_temp "VGAtxt48x20.vhd"
+vhdl isim_temp "Sawtooth_Module.vhd"
+vhdl isim_temp "Keyboard_Module.vhd"
+vhdl isim_temp "Display_Module.vhd"
+vhdl isim_temp "VGAscan.vhd"
+vhdl isim_temp "Sub_Schema_Test.vhd"

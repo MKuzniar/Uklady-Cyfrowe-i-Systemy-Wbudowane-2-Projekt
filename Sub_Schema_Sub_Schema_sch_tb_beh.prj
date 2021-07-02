@@ -1,0 +1,7 @@
+vhdl work "VGAtxt48x20.vhd"
+vhdl work "Sawtooth_Module.vhd"
+vhdl work "Keyboard_Module.vhd"
+vhdl work "Display_Module.vhd"
+vhdl work "VGAscan.vhd"
+vhdl work "Sub_Schema.vhf"
+vhdl work "Sub_Schema_Test.vhd"

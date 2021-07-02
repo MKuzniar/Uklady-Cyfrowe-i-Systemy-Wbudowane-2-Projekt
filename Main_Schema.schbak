@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drawing version="7">
+    <attr value="spartan3e" name="DeviceFamilyName">
+        <trait delete="all:0" />
+        <trait editname="all:0" />
+        <trait edittrait="all:0" />
+    </attr>
+    <netlist>
+        <signal name="Clk" />
+        <signal name="tone_in(3:0)" />
+        <signal name="start_out" />
+        <signal name="data_out(11:0)" />
+        <signal name="command_out(3:0)" />
+        <signal name="address_out(3:0)" />
+        <port polarity="Input" name="Clk" />
+        <port polarity="Input" name="tone_in(3:0)" />
+        <port polarity="Output" name="start_out" />
+        <port polarity="Output" name="data_out(11:0)" />
+        <port polarity="Output" name="command_out(3:0)" />
+        <port polarity="Output" name="address_out(3:0)" />
+        <blockdef name="Sawtooth_Module">
+            <timestamp>2021-3-24T19:31:33</timestamp>
+            <rect width="336" x="64" y="-256" height="256" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <line x2="464" y1="-224" y2="-224" x1="400" />
+            <rect width="64" x="400" y="-172" height="24" />
+            <line x2="464" y1="-160" y2="-160" x1="400" />
+            <rect width="64" x="400" y="-108" height="24" />
+            <line x2="464" y1="-96" y2="-96" x1="400" />
+            <rect width="64" x="400" y="-44" height="24" />
+            <line x2="464" y1="-32" y2="-32" x1="400" />
+        </blockdef>
+        <blockdef name="DACWrite">
+            <timestamp>2009-10-4T16:3:32</timestamp>
+            <line x2="0" y1="-544" y2="-544" x1="64" />
+            <rect width="64" x="0" y="-492" height="24" />
+            <line x2="0" y1="-480" y2="-480" x1="64" />
+            <rect width="64" x="0" y="-428" height="24" />
+            <line x2="0" y1="-416" y2="-416" x1="64" />
+            <rect width="64" x="0" y="-364" height="24" />
+            <line x2="0" y1="-352" y2="-352" x1="64" />
+            <line x2="448" y1="-224" y2="-224" x1="384" />
+            <line x2="448" y1="-160" y2="-160" x1="384" />
+            <line x2="448" y1="-96" y2="-96" x1="384" />
+            <line x2="448" y1="-32" y2="-32" x1="384" />
+            <line x2="448" y1="32" y2="32" x1="384" />
+            <line x2="448" y1="96" y2="96" x1="384" />
+            <line x2="448" y1="-544" y2="-544" x1="384" />
+            <line x2="448" y1="-416" y2="-416" x1="384" />
+            <line x2="384" y1="-480" y2="-480" x1="448" />
+            <line x2="448" y1="-352" y2="-352" x1="384" />
+            <line x2="448" y1="-288" y2="-288" x1="384" />
+            <line x2="0" y1="32" y2="32" x1="64" />
+            <rect width="320" x="64" y="-576" height="760" />
+            <line x2="0" y1="96" y2="96" x1="64" />
+            <line x2="0" y1="160" y2="160" x1="64" />
+        </blockdef>
+        <blockdef name="PS2_Kbd">
+            <timestamp>2008-9-19T9:9:36</timestamp>
+            <line x2="384" y1="-160" y2="-160" x1="320" />
+            <line x2="384" y1="-96" y2="-96" x1="320" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <line x2="384" y1="-32" y2="-32" x1="320" />
+            <rect width="64" x="320" y="-236" height="24" />
+            <line x2="384" y1="-224" y2="-224" x1="320" />
+            <rect width="256" x="64" y="-256" height="256" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+        </blockdef>
+        <blockdef name="Keyboard_Module">
+            <timestamp>2021-4-23T7:53:13</timestamp>
+            <rect width="256" x="64" y="-320" height="320" />
+            <line x2="0" y1="-288" y2="-288" x1="64" />
+            <line x2="0" y1="-224" y2="-224" x1="64" />
+            <line x2="0" y1="-160" y2="-160" x1="64" />
+            <line x2="0" y1="-96" y2="-96" x1="64" />
+            <rect width="64" x="0" y="-44" height="24" />
+            <line x2="0" y1="-32" y2="-32" x1="64" />
+            <rect width="64" x="320" y="-300" height="24" />
+            <line x2="384" y1="-288" y2="-288" x1="320" />
+        </blockdef>
+        <block symbolname="Sawtooth_Module" name="XLXI_1">
+            <blockpin signalname="Clk" name="clk" />
+            <blockpin signalname="tone_in(3:0)" name="tone_in(3:0)" />
+            <blockpin signalname="start_out" name="start_out" />
+            <blockpin signalname="data_out(11:0)" name="data_out(11:0)" />
+            <blockpin signalname="command_out(3:0)" name="command_out(3:0)" />
+            <blockpin signalname="address_out(3:0)" name="address_out(3:0)" />
+        </block>
+        <block symbolname="DACWrite" name="XLXI_2">
+            <blockpin name="Reset" />
+            <blockpin name="Start" />
+            <blockpin name="SPI_MISO" />
+            <blockpin name="Cmd(3:0)" />
+            <blockpin name="Addr(3:0)" />
+            <blockpin name="DATA(11:0)" />
+            <blockpin name="DAC_CLR" />
+            <blockpin name="DAC_CS" />
+            <blockpin name="SPI_MOSI" />
+            <blockpin name="SPI_SCK" />
+            <blockpin name="SPI_SS_B" />
+            <blockpin name="AMP_CS" />
+            <blockpin name="AD_CONV" />
+            <blockpin name="SF_CE0" />
+            <blockpin name="FPGA_INIT_B" />
+            <blockpin name="Busy" />
+            <blockpin name="Clk_50MHz" />
+            <blockpin name="Clk_Sys" />
+        </block>
+        <block symbolname="PS2_Kbd" name="XLXI_3">
+            <blockpin name="PS2_Clk" />
+            <blockpin name="PS2_Data" />
+            <blockpin name="Clk_50MHz" />
+            <blockpin name="E0" />
+            <blockpin name="F0" />
+            <blockpin name="DO_Rdy" />
+            <blockpin name="DO(7:0)" />
+            <blockpin name="Clk_Sys" />
+        </block>
+        <block symbolname="Keyboard_Module" name="XLXI_4">
+            <blockpin name="F0" />
+            <blockpin name="E0" />
+            <blockpin name="Clk" />
+            <blockpin name="DO_rdy" />
+            <blockpin name="DO(7:0)" />
+            <blockpin name="tone_out(3:0)" />
+        </block>
+    </netlist>
+    <sheet sheetnum="1" width="3520" height="2720">
+        <instance x="608" y="768" name="XLXI_1" orien="R0">
+        </instance>
+        <branch name="Clk">
+            <wire x2="592" y1="672" y2="672" x1="304" />
+            <wire x2="608" y1="544" y2="544" x1="592" />
+            <wire x2="592" y1="544" y2="672" x1="592" />
+        </branch>
+        <branch name="tone_in(3:0)">
+            <wire x2="592" y1="736" y2="736" x1="416" />
+            <wire x2="608" y1="736" y2="736" x1="592" />
+        </branch>
+        <branch name="start_out">
+            <wire x2="1088" y1="544" y2="544" x1="1072" />
+            <wire x2="1360" y1="544" y2="544" x1="1088" />
+        </branch>
+        <branch name="data_out(11:0)">
+            <wire x2="1088" y1="608" y2="608" x1="1072" />
+            <wire x2="1360" y1="608" y2="608" x1="1088" />
+        </branch>
+        <branch name="command_out(3:0)">
+            <wire x2="1088" y1="672" y2="672" x1="1072" />
+            <wire x2="1360" y1="672" y2="672" x1="1088" />
+        </branch>
+        <branch name="address_out(3:0)">
+            <wire x2="1088" y1="736" y2="736" x1="1072" />
+            <wire x2="1360" y1="736" y2="736" x1="1088" />
+        </branch>
+        <iomarker fontsize="28" x="416" y="736" name="tone_in(3:0)" orien="R180" />
+        <iomarker fontsize="28" x="304" y="672" name="Clk" orien="R180" />
+        <iomarker fontsize="28" x="1360" y="736" name="address_out(3:0)" orien="R0" />
+        <iomarker fontsize="28" x="1360" y="672" name="command_out(3:0)" orien="R0" />
+        <iomarker fontsize="28" x="1360" y="608" name="data_out(11:0)" orien="R0" />
+        <iomarker fontsize="28" x="1360" y="544" name="start_out" orien="R0" />
+        <instance x="1808" y="1088" name="XLXI_2" orien="R0">
+        </instance>
+        <instance x="304" y="1392" name="XLXI_3" orien="R0">
+        </instance>
+        <instance x="912" y="1424" name="XLXI_4" orien="R0">
+        </instance>
+    </sheet>
+</drawing>

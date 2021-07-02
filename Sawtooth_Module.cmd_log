@@ -1,0 +1,4 @@
+vhdtdtfi -lib work Sawtooth_Module.vhd -prj Organki_Gr_4 -o Sawtooth_Module.spl -module Sawtooth_Module -template D:/Programy/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Sawtooth_Module.spl {D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Sawtooth_Module.sym} 
+vhdtdtfi -lib work Sawtooth_Module.vhd -prj Organki_Gr_4 -o Sawtooth_Module.spl -module Sawtooth_Module -template D:/Programy/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Sawtooth_Module.spl {D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Sawtooth_Module.sym} 

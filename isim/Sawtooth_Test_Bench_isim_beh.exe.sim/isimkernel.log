@@ -1,0 +1,29 @@
+Command line:
+   Sawtooth_Test_Bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50292
+
+Fri Jun 04 12:48:20 2021
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5150.12 Meg
+
+ Total Signals          : 15
+ Total Nets             : 55
+ Total Signal Drivers   : 9
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 7
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 538
+Total Line Count : 29
+
+ Total Simulation Time: 2.79688 sec
+
+ Current Memory Usage: 4678.26 Meg
+
+Fri Jun 04 13:55:02 2021
+

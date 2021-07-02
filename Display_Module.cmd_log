@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Display_Module.vhd -prj Organki_Gr_4 -o Display_Module.spl -module Display_Module -template D:/Programy/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Display_Module.spl {D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Display_Module.sym} 

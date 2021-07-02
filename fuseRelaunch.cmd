@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Sub_Schema_Sub_Schema_sch_tb_isim_beh.exe" -prj "D:/Nauka/Studia/6. Semestr letni 2020-2021/UCiSW2_Projekt/Organki_Gr_4/Sub_Schema_Sub_Schema_sch_tb_beh.prj" "work.Sub_Schema_Sub_Schema_sch_tb" 

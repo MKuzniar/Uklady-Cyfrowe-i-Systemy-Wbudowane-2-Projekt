@@ -1,0 +1,2 @@
+vhdl isim_temp "Keyboard_Module.vhd"
+vhdl isim_temp "Keyboard_Test_Bench.vhd"
